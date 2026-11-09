@@ -14,3 +14,8 @@ build/
 
 # Pacote gerado por scripts/empacotar.py
 dist/
+
+# Currículos e dados pessoais: não versionar no GitHub
+historico/
+evals/resultados/
+references/perfil-mestre.md
