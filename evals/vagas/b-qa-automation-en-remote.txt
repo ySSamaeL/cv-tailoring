@@ -1,0 +1,34 @@
+QA Automation Engineer
+Northbeam Labs · Remote (Brazil) · Full-time
+
+About us
+Northbeam Labs builds a B2B analytics platform used by retail teams in North America. We are a distributed company with engineers across Latin America, and English is our working language.
+
+What you'll do
+- Design, build and maintain end-to-end test suites for our web application
+- Own test automation for critical user flows and keep the suite fast and reliable
+- Integrate automated tests into our CI/CD pipelines (GitHub Actions)
+- Collaborate with developers on test strategy and shift-left practices
+- Investigate flaky tests and production incidents, and help with root cause analysis
+- Monitor quality metrics and report on release readiness
+
+Requirements
+- Hands-on experience with Playwright or Cypress
+- Strong TypeScript or JavaScript skills
+- Experience with CI/CD and version control (Git)
+- Solid understanding of API testing and REST APIs
+- Good communication skills and fluent English (written and spoken)
+- Ability to work autonomously in a remote environment
+
+Nice to have
+- Experience with Page Object Model and test architecture
+- Familiarity with synthetic monitoring or observability tools
+- Docker
+- Experience testing mobile apps
+
+Hiring process: recruiter screen, technical interview, take-home exercise, final interview.
+
+Benefits
+- Salary in USD
+- Flexible hours
+- Home office stipend

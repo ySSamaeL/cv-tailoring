@@ -1,0 +1,16 @@
+# Dados pessoais de terceiros: nunca versionar
+curriculo meu amigo referencia.pdf
+referencias-terceiros/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Saídas temporárias
+*.tmp
+build/
+
+# Pacote gerado por scripts/empacotar.py
+dist/

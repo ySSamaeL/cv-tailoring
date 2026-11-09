@@ -1,0 +1,4 @@
+# Dependências da skill cv-tailoring (Python 3.11+).
+# Só o render precisa delas; extrair_vaga, aderencia e verificar_fatos usam a biblioteca padrão.
+typst>=0.13
+pypdf>=5.0

@@ -1,0 +1,24 @@
+Analista de Testes Júnior
+Paulista Seguros Digital · São Paulo, SP (Presencial) · Tempo integral
+
+Sobre a vaga
+Buscamos Analista de Testes para atuar presencialmente em nosso escritório na Avenida Paulista, em São Paulo. A vaga é 100% presencial, de segunda a sexta. Não oferecemos ajuda de custo para mudança; buscamos candidatos que já residam em São Paulo ou na região metropolitana.
+
+Responsabilidades
+- Executar testes funcionais e de regressão nos sistemas de cotação de seguros
+- Escrever casos de teste e reportar defeitos
+- Apoiar a homologação com as áreas de negócio
+
+Requisitos
+- Experiência com testes manuais
+- Conhecimento em SQL
+- Vivência com metodologias ágeis
+- Ensino superior em andamento ou completo em TI
+
+Diferenciais
+- Automação de testes com Selenium ou Cypress
+- Conhecimento em Java
+
+Benefícios
+- Vale-transporte
+- Plano de saúde

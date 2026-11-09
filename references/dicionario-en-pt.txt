@@ -1,0 +1,107 @@
+# Ponte EN -> PT usada por verificar_fatos.py para comparar bullets em inglês
+# com as linhas do perfil (escrito em português). Formato: termo_en: equivalente(s)_pt
+# Uma linha por termo, minúsculas, sem acento. Amplie quando o verificador
+# reprovar um bullet verdadeiro só por diferença de idioma.
+achieve: alcanc
+agile: agil
+alert: alerta
+alerts: alertas
+analysis: analise
+analytics: analise
+analyst: analista
+architecture: arquitetura
+assistant: assistente
+audited: auditoria
+automated: automacao automatiz
+automation: automacao
+banks: bancos
+bonus: bonus
+brand: marca casa operadora
+brands: marcas casas operadoras
+bug: bug defeito
+bugs: bugs defeitos
+built: construiu criou
+catalogued: catalogados
+checks: verificacoes
+citizen: cidadao
+chronic: cronicos
+combining: cruza
+community: comunidade
+consolidated: consolidada
+contract: contrato
+coverage: cobertura
+credit: credito
+crediting: creditacao
+critical: criticos
+cut: reducao
+deduplication: dedup
+delivered: concluidas
+designed: arquitetura
+detected: deteccao
+detection: deteccao
+documentation: documentacao
+domains: dominios
+dropout: abandono
+episode: episodios
+feasibility: viabilidade
+flood: alagamento
+flows: fluxos
+freeing: devolvidas
+frontend: frontend
+games: jogos
+history: historico
+hours: horas
+incidents: incidentes
+inventory: inventario
+learning: aprendizado
+led: gerou
+maintain: manutencao mantenedor
+manual: manual manuais
+map: mapa mapas
+match: partidas
+messages: mensagens
+metrics: metricas
+monitoring: monitoramento monitor
+months: meses
+monthly: mensais
+network: rede
+outages: quedas
+patients: pacientes
+phase: fases
+phases: fases
+place: lugar
+planning: plano
+platform: plataforma
+plan: plano
+priority: prioridade
+prioritised: priorizacao
+prioritized: priorizacao
+production: producao
+prototype: prototipo
+quality: qualidade
+real-time: tempo real
+reduced: reducao
+registration: registro
+reporting: registro
+report: relato relatorio
+reports: relatorios
+requirements: requisitos
+revocable: revogaveis
+roadmap: roadmap
+route: rota
+run: execucao
+security: seguranca
+shared: unico
+sports: esportiva
+system: sistema
+team: equipe time
+tokens: tokens
+treatment: tratamento
+twice: duas
+user: usuario
+users: usuarios
+validated: valida validacao
+validation: validacao
+weeks: semanas
+win: lugar convite
+work: trabalho

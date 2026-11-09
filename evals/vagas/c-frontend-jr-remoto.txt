@@ -1,0 +1,31 @@
+Desenvolvedor(a) Frontend Júnior
+Ateliê Digital · Remoto · Tempo integral
+
+Quem somos
+Somos uma software house que cria produtos digitais para educação e varejo. Trabalhamos 100% remoto, com time distribuído pelo Brasil.
+
+Atividades
+- Desenvolver interfaces a partir de protótipos no Figma
+- Criar componentes reutilizáveis com React e Next.js
+- Estilizar páginas com Tailwind CSS garantindo responsividade
+- Integrar o frontend com APIs REST
+- Participar de code reviews e manter o código versionado no Git
+
+Requisitos
+- Experiência com React e Next.js
+- TypeScript
+- Tailwind CSS
+- Leitura de protótipos no Figma
+- Consumo de APIs REST
+- Git e GitHub
+
+Diferenciais
+- Conhecimento em testes unitários com Jest e Testing Library
+- Noções de acessibilidade (WCAG)
+- Experiência com design system ou bibliotecas de componentes como shadcn/ui
+- Conhecimento em Node.js
+
+Benefícios
+- Bolsa de estudos
+- Horário flexível
+- Day off no aniversário

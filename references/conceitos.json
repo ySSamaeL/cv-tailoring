@@ -1,0 +1,1878 @@
+{
+  "versao": 1,
+  "descricao": "Léxico usado pelos scripts. Cada conceito lista as formas que aparecem em vagas (variantes, PT e EN) e os termos do perfil-mestre que provam cobertura ('cobre') ou cobertura parcial ('parcial'). Sem termo encontrado no perfil = lacuna. 'no_cv': o termo nunca é escrito no currículo, mesmo com cobertura parcial (ex.: Jira coberto por Linear). 'forma_cv': forma obrigatória no currículo, no lugar da forma da vaga. Variante com '=' na frente é sensível a maiúsculas. A versão legível para humanos é references/glossario-vagas.md.",
+  "conceitos": [
+    {
+      "id": "playwright",
+      "categoria": "ferramenta",
+      "rotulo": "Playwright",
+      "variantes": [
+        "Playwright"
+      ],
+      "cobre": [
+        "Playwright"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "cypress",
+      "categoria": "ferramenta",
+      "rotulo": "Cypress",
+      "variantes": [
+        "Cypress"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Cypress"
+      ],
+      "no_cv": true,
+      "nota": "Só avaliado (Familiar). Vai para a análise como parcial; no currículo, usar Playwright."
+    },
+    {
+      "id": "selenium",
+      "categoria": "ferramenta",
+      "rotulo": "Selenium",
+      "variantes": [
+        "Selenium",
+        "WebDriver"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "robot-framework",
+      "categoria": "ferramenta",
+      "rotulo": "Robot Framework",
+      "variantes": [
+        "Robot Framework",
+        "RobotFramework"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true,
+      "nota": "Sem uso registrado. Em vaga com alternativa (Robot Framework, Cypress ou Playwright), vale o Playwright."
+    },
+    {
+      "id": "puppeteer",
+      "categoria": "ferramenta",
+      "rotulo": "Puppeteer",
+      "variantes": [
+        "Puppeteer"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Puppeteer"
+      ],
+      "no_cv": true
+    },
+    {
+      "id": "appium",
+      "categoria": "ferramenta",
+      "rotulo": "Appium",
+      "variantes": [
+        "Appium"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Appium Inspector"
+      ],
+      "forma_cv": "Appium Inspector"
+    },
+    {
+      "id": "maestro",
+      "categoria": "ferramenta",
+      "rotulo": "Maestro",
+      "variantes": [
+        "Maestro"
+      ],
+      "cobre": [
+        "Maestro"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "jest",
+      "categoria": "ferramenta",
+      "rotulo": "Jest",
+      "variantes": [
+        "Jest",
+        "Vitest",
+        "Testing Library",
+        "React Testing Library"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Jest"
+      ],
+      "no_cv": true,
+      "nota": "Jest aparece só como stack de um repositório mantido no freelance; não há autoria de testes unitários registrada."
+    },
+    {
+      "id": "testes-unitarios",
+      "categoria": "tecnica",
+      "rotulo": "testes unitários",
+      "variantes": [
+        "testes unitários",
+        "teste unitário",
+        "unit tests",
+        "unit testing",
+        "testes de unidade"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "tdd",
+      "categoria": "tecnica",
+      "rotulo": "TDD",
+      "variantes": [
+        "TDD",
+        "Test Driven Development",
+        "Test-Driven Development"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "page-objects",
+      "categoria": "tecnica",
+      "rotulo": "Page Objects",
+      "variantes": [
+        "Page Object",
+        "Page Objects",
+        "Page Object Model",
+        "=POM"
+      ],
+      "cobre": [
+        "Page Objects"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "automacao",
+      "categoria": "tecnica",
+      "rotulo": "automação de testes",
+      "variantes": [
+        "automação de testes",
+        "testes automatizados",
+        "teste automatizado",
+        "test automation",
+        "automated tests",
+        "automated testing",
+        "automação",
+        "automation"
+      ],
+      "cobre": [
+        "automação"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "e2e",
+      "categoria": "tecnica",
+      "rotulo": "testes E2E",
+      "variantes": [
+        "E2E",
+        "end-to-end",
+        "end to end",
+        "ponta a ponta"
+      ],
+      "cobre": [
+        "E2E"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "testes-manuais",
+      "categoria": "tecnica",
+      "rotulo": "testes manuais",
+      "variantes": [
+        "testes manuais",
+        "teste manual",
+        "manual testing",
+        "manual tests",
+        "testes funcionais",
+        "teste funcional",
+        "functional testing",
+        "functional tests",
+        "validação funcional"
+      ],
+      "cobre": [
+        "testes manuais",
+        "validação funcional"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "regressao",
+      "categoria": "tecnica",
+      "rotulo": "testes de regressão",
+      "variantes": [
+        "regressão",
+        "testes de regressão",
+        "regression",
+        "regression testing"
+      ],
+      "cobre": [
+        "regressão"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "smoke",
+      "categoria": "tecnica",
+      "rotulo": "smoke test",
+      "variantes": [
+        "smoke",
+        "smoke test",
+        "smoke tests",
+        "smoke testing",
+        "teste de fumaça",
+        "sanity",
+        "sanity test"
+      ],
+      "cobre": [
+        "smoke"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "exploratorio",
+      "categoria": "tecnica",
+      "rotulo": "testes exploratórios",
+      "variantes": [
+        "exploratório",
+        "exploratórios",
+        "testes exploratórios",
+        "exploratory",
+        "exploratory testing"
+      ],
+      "cobre": [
+        "exploratório"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "homologacao",
+      "categoria": "tecnica",
+      "rotulo": "homologação / UAT",
+      "variantes": [
+        "homologação",
+        "=UAT",
+        "user acceptance testing",
+        "testes de aceitação",
+        "acceptance testing"
+      ],
+      "cobre": [
+        "homologação"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "release",
+      "categoria": "tecnica",
+      "rotulo": "teste de release",
+      "variantes": [
+        "release",
+        "releases",
+        "teste de release",
+        "release testing",
+        "go-live"
+      ],
+      "cobre": [
+        "teste de release",
+        "releases de app"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "bdd",
+      "categoria": "tecnica",
+      "rotulo": "BDD",
+      "variantes": [
+        "=BDD",
+        "Behavior Driven Development",
+        "Behavior-Driven Development"
+      ],
+      "cobre": [
+        "BDD"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "gherkin",
+      "categoria": "tecnica",
+      "rotulo": "Gherkin",
+      "variantes": [
+        "Gherkin"
+      ],
+      "cobre": [
+        "Gherkin"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "cucumber",
+      "categoria": "ferramenta",
+      "rotulo": "Cucumber",
+      "variantes": [
+        "Cucumber"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Gherkin"
+      ],
+      "no_cv": true,
+      "nota": "Escreve Gherkin, mas não usa o runner Cucumber."
+    },
+    {
+      "id": "plano-de-testes",
+      "categoria": "tecnica",
+      "rotulo": "plano / estratégia de testes",
+      "variantes": [
+        "plano de testes",
+        "planos de teste",
+        "plano de teste",
+        "planos de testes",
+        "estratégia de testes",
+        "estratégia de teste",
+        "test plan",
+        "test plans",
+        "test strategy",
+        "test planning",
+        "planejamento de testes",
+        "estratégias de testes",
+        "estratégias de teste",
+        "test strategies"
+      ],
+      "cobre": [
+        "Plano e Relatório de Testes",
+        "estratégia de teste"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "casos-de-teste",
+      "categoria": "tecnica",
+      "rotulo": "casos / cenários de teste",
+      "variantes": [
+        "casos de teste",
+        "caso de teste",
+        "test cases",
+        "test case",
+        "cenários de teste",
+        "cenários de testes",
+        "test scenarios",
+        "cenários"
+      ],
+      "cobre": [
+        "cenários positivos, negativos e de borda",
+        "Cenários Gherkin"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "requisitos",
+      "categoria": "tecnica",
+      "rotulo": "análise de requisitos",
+      "variantes": [
+        "análise de requisitos",
+        "requisitos",
+        "requirements analysis",
+        "requirements",
+        "critérios de aceitação",
+        "acceptance criteria",
+        "regras de negócio",
+        "business rules"
+      ],
+      "cobre": [
+        "análise de requisitos"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "risco",
+      "categoria": "tecnica",
+      "rotulo": "testes baseados em risco",
+      "variantes": [
+        "baseado em risco",
+        "baseados em risco",
+        "risk-based",
+        "risk based",
+        "análise de risco",
+        "riscos"
+      ],
+      "cobre": [
+        "planejamento por risco"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "shift-left",
+      "categoria": "tecnica",
+      "rotulo": "shift-left",
+      "variantes": [
+        "shift-left",
+        "shift left"
+      ],
+      "cobre": [
+        "desde a concepção das soluções"
+      ],
+      "parcial": [],
+      "forma_cv": "QA desde a concepção (shift-left)"
+    },
+    {
+      "id": "bug-tracking",
+      "categoria": "tecnica",
+      "rotulo": "gestão de defeitos",
+      "variantes": [
+        "bug tracking",
+        "gestão de defeitos",
+        "gestão de bugs",
+        "reporte de bugs",
+        "report de bugs",
+        "registro de bugs",
+        "abertura de bugs",
+        "defect management",
+        "defect tracking",
+        "bug reports",
+        "bug reporting",
+        "defeitos",
+        "bugs"
+      ],
+      "cobre": [
+        "rastreabilidade de defeitos",
+        "Bugs pré-produção"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "incidentes",
+      "categoria": "tecnica",
+      "rotulo": "gestão de incidentes / post-mortem",
+      "variantes": [
+        "incidentes",
+        "incident management",
+        "incidents",
+        "post-mortem",
+        "postmortem",
+        "root cause",
+        "causa raiz",
+        "=RCA"
+      ],
+      "cobre": [
+        "Post-mortem",
+        "277 incidentes"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "metricas-qualidade",
+      "categoria": "tecnica",
+      "rotulo": "métricas de qualidade",
+      "variantes": [
+        "métricas de qualidade",
+        "quality metrics",
+        "=KPIs",
+        "=KPI",
+        "indicadores de qualidade"
+      ],
+      "cobre": [
+        "métricas de qualidade",
+        "métrica pré vs pós-release"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "documentacao",
+      "categoria": "tecnica",
+      "rotulo": "documentação de testes",
+      "variantes": [
+        "documentação",
+        "documentation",
+        "documentar",
+        "evidências",
+        "test reports",
+        "relatórios de teste",
+        "reporte de status",
+        "status report",
+        "evolução dos testes",
+        "test reporting"
+      ],
+      "cobre": [
+        "Documentação como engenharia",
+        "Relatório de Testes"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "testes-api",
+      "categoria": "tecnica",
+      "rotulo": "testes de API",
+      "variantes": [
+        "testes de API",
+        "teste de API",
+        "testes de APIs",
+        "API testing",
+        "API tests",
+        "testing APIs",
+        "testes de integração",
+        "integration testing"
+      ],
+      "cobre": [
+        "testes de API"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "api-rest",
+      "categoria": "backend",
+      "rotulo": "API REST",
+      "variantes": [
+        "API REST",
+        "APIs REST",
+        "REST API",
+        "REST APIs",
+        "RESTful",
+        "=REST"
+      ],
+      "cobre": [
+        "API REST",
+        "API Hono"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "graphql",
+      "categoria": "backend",
+      "rotulo": "GraphQL",
+      "variantes": [
+        "GraphQL"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "postman",
+      "categoria": "ferramenta",
+      "rotulo": "Postman",
+      "variantes": [
+        "Postman",
+        "Insomnia"
+      ],
+      "cobre": [
+        "Postman"
+      ],
+      "parcial": [],
+      "forma_cv": "Postman"
+    },
+    {
+      "id": "openapi",
+      "categoria": "backend",
+      "rotulo": "OpenAPI / Swagger",
+      "variantes": [
+        "OpenAPI",
+        "Swagger"
+      ],
+      "cobre": [
+        "OpenAPI",
+        "Swagger"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "contrato",
+      "categoria": "tecnica",
+      "rotulo": "testes de contrato",
+      "variantes": [
+        "contract testing",
+        "testes de contrato",
+        "Pact"
+      ],
+      "cobre": [],
+      "parcial": [
+        "contrato OpenAPI"
+      ],
+      "no_cv": true
+    },
+    {
+      "id": "sql",
+      "categoria": "dados",
+      "rotulo": "SQL",
+      "variantes": [
+        "=SQL",
+        "banco de dados",
+        "bancos de dados",
+        "database",
+        "databases",
+        "queries",
+        "consultas"
+      ],
+      "cobre": [
+        "SQL"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "sql-server",
+      "categoria": "dados",
+      "rotulo": "Microsoft SQL Server",
+      "variantes": [
+        "SQL Server",
+        "T-SQL"
+      ],
+      "cobre": [
+        "Microsoft SQL Server"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "postgres",
+      "categoria": "dados",
+      "rotulo": "PostgreSQL",
+      "variantes": [
+        "PostgreSQL",
+        "Postgres"
+      ],
+      "cobre": [
+        "Postgres"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "mysql",
+      "categoria": "dados",
+      "rotulo": "MySQL",
+      "variantes": [
+        "MySQL",
+        "MariaDB",
+        "Oracle"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "nosql",
+      "categoria": "dados",
+      "rotulo": "NoSQL",
+      "variantes": [
+        "NoSQL",
+        "MongoDB",
+        "Redis",
+        "DynamoDB",
+        "não relacionais",
+        "nao relacionais",
+        "não relacional",
+        "non-relational"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "dados-python",
+      "categoria": "dados",
+      "rotulo": "análise de dados com Python",
+      "variantes": [
+        "pandas",
+        "análise de dados",
+        "data analysis",
+        "scraping",
+        "web scraping"
+      ],
+      "cobre": [
+        "pandas",
+        "scraper"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "jira",
+      "categoria": "ferramenta",
+      "rotulo": "Jira",
+      "variantes": [
+        "Jira",
+        "Jira Software"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Linear"
+      ],
+      "no_cv": true,
+      "nota": "Usa Linear (boards, hierarquias, templates), ferramenta equivalente. No currículo, escrever Linear; na carta, pode dizer 'ferramentas de gestão como Linear'."
+    },
+    {
+      "id": "gestao-testes",
+      "categoria": "ferramenta",
+      "rotulo": "TestRail / Zephyr / Xray",
+      "variantes": [
+        "TestRail",
+        "Zephyr",
+        "Xray",
+        "qTest",
+        "TestLink",
+        "Octane",
+        "ALM Octane",
+        "Micro Focus ALM",
+        "=ALM"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Linear"
+      ],
+      "no_cv": true
+    },
+    {
+      "id": "azure-devops",
+      "categoria": "ferramenta",
+      "rotulo": "Azure DevOps",
+      "variantes": [
+        "Azure DevOps",
+        "Azure Boards",
+        "=ADO"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "linear",
+      "categoria": "ferramenta",
+      "rotulo": "Linear",
+      "variantes": [
+        "Linear"
+      ],
+      "cobre": [
+        "Linear"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "confluence",
+      "categoria": "ferramenta",
+      "rotulo": "Confluence / Notion",
+      "variantes": [
+        "Confluence",
+        "Notion"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Notion"
+      ],
+      "forma_cv": "Notion"
+    },
+    {
+      "id": "git",
+      "categoria": "infra",
+      "rotulo": "Git / GitHub",
+      "variantes": [
+        "=Git",
+        "GitHub",
+        "versionamento",
+        "version control"
+      ],
+      "cobre": [
+        "GitHub",
+        "git"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "gitlab",
+      "categoria": "infra",
+      "rotulo": "GitLab",
+      "variantes": [
+        "GitLab"
+      ],
+      "cobre": [],
+      "parcial": [
+        "GitLab"
+      ]
+    },
+    {
+      "id": "ci-cd",
+      "categoria": "infra",
+      "rotulo": "CI/CD",
+      "variantes": [
+        "CI/CD",
+        "CI-CD",
+        "=CI",
+        "continuous integration",
+        "integração contínua",
+        "entrega contínua",
+        "continuous delivery",
+        "pipeline",
+        "pipelines"
+      ],
+      "cobre": [],
+      "parcial": [
+        "smoke no CI/CD",
+        "GitHub Actions (planejado)"
+      ],
+      "nota": "Planejado, não rodando. No currículo só com qualificador explícito (planejado, proposto, roadmap)."
+    },
+    {
+      "id": "github-actions",
+      "categoria": "infra",
+      "rotulo": "GitHub Actions",
+      "variantes": [
+        "GitHub Actions"
+      ],
+      "cobre": [],
+      "parcial": [
+        "GitHub Actions (planejado)"
+      ],
+      "nota": "Mesma regra de CI/CD."
+    },
+    {
+      "id": "jenkins",
+      "categoria": "infra",
+      "rotulo": "Jenkins",
+      "variantes": [
+        "Jenkins",
+        "CircleCI",
+        "Travis",
+        "GitLab CI",
+        "Azure Pipelines",
+        "Bitbucket Pipelines"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "docker",
+      "categoria": "infra",
+      "rotulo": "Docker / Kubernetes",
+      "variantes": [
+        "Docker",
+        "Kubernetes",
+        "=K8s",
+        "containers",
+        "contêineres"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "cloud",
+      "categoria": "infra",
+      "rotulo": "cloud",
+      "variantes": [
+        "cloud",
+        "nuvem",
+        "=AWS",
+        "Azure",
+        "=GCP",
+        "Google Cloud",
+        "Railway",
+        "Cloudflare"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Railway",
+        "Cloudflare Workers",
+        "AWS S3"
+      ],
+      "nota": "Entregas reais em Railway (PaaS) e Cloudflare Workers, D1 e R2; sem AWS, Azure ou GCP. Parcial para Cloud Computing. Pode citar Railway e Cloudflare pelo nome; não escrever AWS, Azure ou GCP."
+    },
+    {
+      "id": "linux",
+      "categoria": "infra",
+      "rotulo": "Linux / shell",
+      "variantes": [
+        "Linux",
+        "shell",
+        "Bash",
+        "terminal",
+        "linha de comando",
+        "command line",
+        "PowerShell"
+      ],
+      "cobre": [
+        "PowerShell, Bash"
+      ],
+      "parcial": [],
+      "forma_cv": "PowerShell e Bash"
+    },
+    {
+      "id": "observabilidade",
+      "categoria": "tecnica",
+      "rotulo": "observabilidade / monitoramento",
+      "variantes": [
+        "observabilidade",
+        "observability",
+        "monitoramento",
+        "monitoring",
+        "monitoramento sintético",
+        "synthetic monitoring",
+        "alertas",
+        "alerting",
+        "alertas e monitoramento"
+      ],
+      "cobre": [
+        "Observabilidade e monitoramento sintético",
+        "Monitor 24/7"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "apm",
+      "categoria": "ferramenta",
+      "rotulo": "Grafana / Datadog / New Relic",
+      "variantes": [
+        "Grafana",
+        "Datadog",
+        "New Relic",
+        "Prometheus",
+        "Kibana",
+        "Elastic",
+        "Splunk",
+        "Dynatrace"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "sentry",
+      "categoria": "ferramenta",
+      "rotulo": "Sentry",
+      "variantes": [
+        "Sentry"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Sentry"
+      ]
+    },
+    {
+      "id": "performance",
+      "categoria": "tecnica",
+      "rotulo": "testes de performance / carga",
+      "variantes": [
+        "testes de performance",
+        "teste de performance",
+        "testes de carga",
+        "teste de carga",
+        "testes de estresse",
+        "performance testing",
+        "load testing",
+        "stress testing",
+        "JMeter",
+        "=k6",
+        "Gatling",
+        "Locust",
+        "performance"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true,
+      "nota": "Atenção: 'equipe de Performance' é o nome do time, não teste de carga."
+    },
+    {
+      "id": "seguranca",
+      "categoria": "tecnica",
+      "rotulo": "segurança",
+      "variantes": [
+        "testes de segurança",
+        "security testing",
+        "=OWASP",
+        "segurança",
+        "security",
+        "pentest"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Gitleaks"
+      ],
+      "nota": "Segurança de engenharia (Gitleaks, segredos fora do git), não testes de segurança. No currículo, descrever o que fez, sem 'testes de segurança'."
+    },
+    {
+      "id": "mobile",
+      "categoria": "tecnica",
+      "rotulo": "testes mobile",
+      "variantes": [
+        "testes mobile",
+        "mobile testing",
+        "testes em dispositivos móveis",
+        "mobile",
+        "aplicativos móveis",
+        "mobile apps",
+        "app mobile"
+      ],
+      "cobre": [
+        "app Android",
+        "web mobile"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "android",
+      "categoria": "tecnica",
+      "rotulo": "Android",
+      "variantes": [
+        "Android",
+        "=ADB"
+      ],
+      "cobre": [
+        "Android",
+        "ADB"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "ios",
+      "categoria": "tecnica",
+      "rotulo": "iOS",
+      "variantes": [
+        "=iOS",
+        "XCUITest",
+        "Xcode"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "ocr",
+      "categoria": "tecnica",
+      "rotulo": "OCR / visão computacional",
+      "variantes": [
+        "=OCR",
+        "Tesseract",
+        "visão computacional",
+        "computer vision",
+        "OpenCV"
+      ],
+      "cobre": [
+        "OCR",
+        "Tesseract"
+      ],
+      "parcial": [
+        "OpenCV"
+      ]
+    },
+    {
+      "id": "ia",
+      "categoria": "tecnica",
+      "rotulo": "IA aplicada / agentes",
+      "variantes": [
+        "inteligência artificial",
+        "artificial intelligence",
+        "=IA",
+        "=AI",
+        "=LLM",
+        "=LLMs",
+        "agentes de IA",
+        "AI agents",
+        "IA generativa",
+        "generative AI",
+        "GenAI",
+        "Claude",
+        "prompt engineering",
+        "engenharia de prompt",
+        "ChatGPT",
+        "Copilot"
+      ],
+      "cobre": [
+        "agentes de IA",
+        "skills de Claude"
+      ],
+      "parcial": [],
+      "forma_cv": "IA aplicada (Claude)"
+    },
+    {
+      "id": "mcp",
+      "categoria": "tecnica",
+      "rotulo": "MCP",
+      "variantes": [
+        "=MCP",
+        "Model Context Protocol"
+      ],
+      "cobre": [
+        "MCP"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "typescript",
+      "categoria": "linguagem",
+      "rotulo": "TypeScript",
+      "variantes": [
+        "TypeScript",
+        "=TS"
+      ],
+      "cobre": [
+        "TypeScript"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "javascript",
+      "categoria": "linguagem",
+      "rotulo": "JavaScript",
+      "variantes": [
+        "JavaScript",
+        "=JS",
+        "ES6",
+        "ECMAScript"
+      ],
+      "cobre": [
+        "JavaScript"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "python",
+      "categoria": "linguagem",
+      "rotulo": "Python",
+      "variantes": [
+        "Python"
+      ],
+      "cobre": [
+        "Python"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "java",
+      "categoria": "linguagem",
+      "rotulo": "Java",
+      "variantes": [
+        "Java",
+        "=JUnit",
+        "TestNG",
+        "RestAssured",
+        "Rest Assured"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true,
+      "nota": "Só curso introdutório (nível Iniciante). Regra do Samuel: Java é lacuna."
+    },
+    {
+      "id": "csharp",
+      "categoria": "linguagem",
+      "rotulo": "C# / .NET",
+      "variantes": [
+        "C#",
+        ".NET",
+        "ASP.NET",
+        "dotnet",
+        "=MVC",
+        "ASP.NET MVC"
+      ],
+      "cobre": [],
+      "parcial": [
+        ".NET MVC 4.7",
+        "C# | Intermediário"
+      ],
+      "nota": "QA em aplicações .NET MVC e nível Intermediário declarado. Pode citar 'aplicações .NET' na experiência da Função Sistemas."
+    },
+    {
+      "id": "delphi",
+      "categoria": "linguagem",
+      "rotulo": "Delphi",
+      "variantes": [
+        "Delphi"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Delphi"
+      ]
+    },
+    {
+      "id": "react",
+      "categoria": "frontend",
+      "rotulo": "React",
+      "variantes": [
+        "React",
+        "React.js",
+        "ReactJS"
+      ],
+      "cobre": [
+        "React 19"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "nextjs",
+      "categoria": "frontend",
+      "rotulo": "Next.js",
+      "variantes": [
+        "Next.js",
+        "NextJS",
+        "Next 13",
+        "Next 14",
+        "Next 15",
+        "App Router"
+      ],
+      "cobre": [
+        "Next.js 15"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "react-native",
+      "categoria": "frontend",
+      "rotulo": "React Native / Expo",
+      "variantes": [
+        "React Native",
+        "Expo"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Expo e React Native"
+      ],
+      "nota": "Só projeto pessoal."
+    },
+    {
+      "id": "tailwind",
+      "categoria": "frontend",
+      "rotulo": "Tailwind CSS",
+      "variantes": [
+        "Tailwind",
+        "Tailwind CSS",
+        "TailwindCSS"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Tailwind 4"
+      ],
+      "nota": "Usado no frontend do Mais Conhecimento (freelance); nível declarado Familiar. Pode aparecer no currículo, sem adjetivo de domínio."
+    },
+    {
+      "id": "css",
+      "categoria": "frontend",
+      "rotulo": "HTML / CSS",
+      "variantes": [
+        "=CSS",
+        "=CSS3",
+        "=HTML",
+        "=HTML5",
+        "Sass",
+        "=SCSS",
+        "styled-components"
+      ],
+      "cobre": [
+        "styled-components"
+      ],
+      "parcial": [
+        "CSS custom properties"
+      ]
+    },
+    {
+      "id": "ui-libs",
+      "categoria": "frontend",
+      "rotulo": "bibliotecas de componentes",
+      "variantes": [
+        "shadcn",
+        "shadcn/ui",
+        "Radix",
+        "Material UI",
+        "Material-UI",
+        "=MUI",
+        "Chakra",
+        "componentização",
+        "componentes reutilizáveis",
+        "reusable components"
+      ],
+      "cobre": [
+        "Radix/shadcn",
+        "Material-UI v4"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "design-system",
+      "categoria": "frontend",
+      "rotulo": "design system",
+      "variantes": [
+        "design system",
+        "design systems",
+        "sistema de design"
+      ],
+      "cobre": [
+        "design system documentado"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "figma",
+      "categoria": "frontend",
+      "rotulo": "Figma",
+      "variantes": [
+        "Figma"
+      ],
+      "cobre": [
+        "Figma"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "state",
+      "categoria": "frontend",
+      "rotulo": "gerenciamento de estado",
+      "variantes": [
+        "Redux",
+        "Zustand",
+        "Context API",
+        "gerenciamento de estado",
+        "state management"
+      ],
+      "cobre": [
+        "Redux"
+      ],
+      "parcial": [],
+      "forma_cv": "Redux"
+    },
+    {
+      "id": "forms",
+      "categoria": "frontend",
+      "rotulo": "formulários",
+      "variantes": [
+        "React Hook Form",
+        "Formik",
+        "Zod",
+        "Yup"
+      ],
+      "cobre": [
+        "React Hook Form",
+        "Formik",
+        "Zod"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "vite",
+      "categoria": "frontend",
+      "rotulo": "Vite",
+      "variantes": [
+        "Vite",
+        "Webpack"
+      ],
+      "cobre": [
+        "Vite"
+      ],
+      "parcial": [],
+      "forma_cv": "Vite"
+    },
+    {
+      "id": "responsivo",
+      "categoria": "frontend",
+      "rotulo": "layout responsivo",
+      "variantes": [
+        "responsividade",
+        "responsivo",
+        "responsiva",
+        "responsive",
+        "mobile-first",
+        "mobile first"
+      ],
+      "cobre": [],
+      "parcial": [
+        "web mobile"
+      ],
+      "no_cv": true,
+      "nota": "Testa web mobile, mas não há registro de implementar layout responsivo. Não afirmar."
+    },
+    {
+      "id": "acessibilidade",
+      "categoria": "frontend",
+      "rotulo": "acessibilidade",
+      "variantes": [
+        "acessibilidade",
+        "accessibility",
+        "=a11y",
+        "=WCAG"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Acessibilidade"
+      ],
+      "no_cv": true,
+      "nota": "Evidência é o projeto de dicionários em Libras, não acessibilidade web. Pode citar o projeto pelo nome; não escrever 'acessibilidade web' nem WCAG."
+    },
+    {
+      "id": "seo",
+      "categoria": "frontend",
+      "rotulo": "SEO / Web Vitals",
+      "variantes": [
+        "=SEO",
+        "Web Vitals",
+        "Core Web Vitals",
+        "Lighthouse"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "vue-angular",
+      "categoria": "frontend",
+      "rotulo": "Vue / Angular",
+      "variantes": [
+        "Vue",
+        "Vue.js",
+        "Angular",
+        "Svelte",
+        "Nuxt"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "storybook",
+      "categoria": "frontend",
+      "rotulo": "Storybook",
+      "variantes": [
+        "Storybook"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "node",
+      "categoria": "backend",
+      "rotulo": "Node.js",
+      "variantes": [
+        "Node.js",
+        "NodeJS",
+        "=Node"
+      ],
+      "cobre": [
+        "Node.js"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "express",
+      "categoria": "backend",
+      "rotulo": "Express / Hono",
+      "variantes": [
+        "Express",
+        "Hono",
+        "NestJS",
+        "Fastify"
+      ],
+      "cobre": [
+        "Express",
+        "Hono"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "orm",
+      "categoria": "backend",
+      "rotulo": "ORM",
+      "variantes": [
+        "=ORM",
+        "Prisma",
+        "Drizzle",
+        "TypeORM",
+        "Sequelize"
+      ],
+      "cobre": [
+        "Drizzle",
+        "TypeORM",
+        "Sequelize"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "scrum-kanban",
+      "categoria": "processo",
+      "rotulo": "Scrum / Kanban",
+      "variantes": [
+        "Scrum",
+        "Kanban"
+      ],
+      "cobre": [
+        "Scrum",
+        "Kanban"
+      ],
+      "parcial": [
+        "contexto ágil"
+      ],
+      "nota": "Scrum e Kanban confirmados pelo Samuel em 05/11/2026 (4.2#2 e 8#7)."
+    },
+    {
+      "id": "agil",
+      "categoria": "processo",
+      "rotulo": "metodologias ágeis",
+      "variantes": [
+        "ágil",
+        "ágeis",
+        "agile",
+        "sprints",
+        "sprint"
+      ],
+      "cobre": [
+        "contexto ágil"
+      ],
+      "parcial": [],
+      "forma_cv": "contexto ágil"
+    },
+    {
+      "id": "istqb",
+      "categoria": "formacao",
+      "rotulo": "ISTQB / CTFL",
+      "variantes": [
+        "ISTQB",
+        "CTFL",
+        "CTAL",
+        "certificação em testes"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "graduacao",
+      "categoria": "formacao",
+      "rotulo": "graduação em TI",
+      "variantes": [
+        "ensino superior",
+        "graduação",
+        "cursando",
+        "bacharelado",
+        "tecnólogo",
+        "degree",
+        "bachelor",
+        "computer science",
+        "ciência da computação",
+        "sistemas de informação",
+        "análise e desenvolvimento de sistemas",
+        "engenharia de software",
+        "software engineering"
+      ],
+      "cobre": [
+        "Tecnólogo em Análise e Desenvolvimento de Sistemas"
+      ],
+      "parcial": [],
+      "nota": "CESAR School em andamento (ago/2026 a dez/2028). UFRPE: nunca citar situação da matrícula."
+    },
+    {
+      "id": "ingles",
+      "categoria": "idioma",
+      "rotulo": "inglês",
+      "variantes": [
+        "inglês",
+        "english",
+        "fluent english",
+        "inglês avançado",
+        "advanced english",
+        "inglês fluente",
+        "inglês técnico"
+      ],
+      "cobre": [
+        "Inglês | Avançado"
+      ],
+      "parcial": [],
+      "nota": "Avançado, sem certificado formal. Evidência: SAT 1270 (percentil 83) e programa conduzido em inglês."
+    },
+    {
+      "id": "espanhol",
+      "categoria": "idioma",
+      "rotulo": "espanhol",
+      "variantes": [
+        "espanhol",
+        "spanish"
+      ],
+      "cobre": [],
+      "parcial": [
+        "Espanhol | Básico"
+      ]
+    },
+    {
+      "id": "igaming",
+      "categoria": "dominio",
+      "rotulo": "iGaming",
+      "variantes": [
+        "iGaming",
+        "gaming",
+        "apostas",
+        "apostas esportivas",
+        "casa de apostas",
+        "bets",
+        "betting",
+        "sportsbook",
+        "cassino",
+        "casino",
+        "bet"
+      ],
+      "cobre": [
+        "iGaming",
+        "sportsbook"
+      ],
+      "parcial": [],
+      "forma_cv": "iGaming"
+    },
+    {
+      "id": "financeiro",
+      "categoria": "dominio",
+      "rotulo": "domínio financeiro",
+      "variantes": [
+        "bancário",
+        "banking",
+        "fintech",
+        "fintechs",
+        "financeiro",
+        "meios de pagamento",
+        "payments",
+        "pagamentos",
+        "crédito"
+      ],
+      "cobre": [
+        "bancos e fintechs",
+        "crédito consignado privado"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "pix-kyc",
+      "categoria": "dominio",
+      "rotulo": "PIX / KYC",
+      "variantes": [
+        "=PIX",
+        "=KYC",
+        "onboarding",
+        "antifraude",
+        "anti-fraud"
+      ],
+      "cobre": [
+        "PIX",
+        "KYC"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "comunicacao",
+      "categoria": "soft",
+      "rotulo": "comunicação",
+      "variantes": [
+        "comunicação",
+        "communication",
+        "comunicação clara",
+        "communication skills"
+      ],
+      "cobre": [
+        "Comunicação técnica e escrita"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "equipe",
+      "categoria": "soft",
+      "rotulo": "trabalho em equipe",
+      "variantes": [
+        "trabalho em equipe",
+        "teamwork",
+        "colaboração",
+        "collaboration",
+        "colaborativo",
+        "collaborative"
+      ],
+      "cobre": [
+        "Trabalho em equipe sob pressão"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "autonomia",
+      "categoria": "soft",
+      "rotulo": "autonomia / proatividade",
+      "variantes": [
+        "autonomia",
+        "proatividade",
+        "proativo",
+        "proativa",
+        "autonomy",
+        "proactive",
+        "ownership",
+        "self-starter",
+        "iniciativa",
+        "autonomously",
+        "autonomous",
+        "independently",
+        "de forma autônoma"
+      ],
+      "cobre": [
+        "Autonomia e iniciativa"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "analitico",
+      "categoria": "soft",
+      "rotulo": "pensamento analítico",
+      "variantes": [
+        "pensamento analítico",
+        "analytical",
+        "analytical skills",
+        "raciocínio lógico",
+        "resolução de problemas",
+        "problem solving",
+        "problem-solving",
+        "atenção aos detalhes",
+        "attention to detail"
+      ],
+      "cobre": [
+        "Decisão por evidência"
+      ],
+      "parcial": []
+    },
+    {
+      "id": "mainframe",
+      "categoria": "infra",
+      "rotulo": "Mainframe",
+      "variantes": [
+        "Mainframe",
+        "COBOL",
+        "CICS",
+        "=JCL"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "orm-dotnet",
+      "categoria": "backend",
+      "rotulo": "Entity Framework / Dapper / NHibernate",
+      "variantes": [
+        "Entity Framework",
+        "EF Core",
+        "Dapper",
+        "NHibernate"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true,
+      "nota": "ORMs usados foram de Node (TypeORM, Sequelize, Drizzle); nenhum ORM .NET registrado."
+    },
+    {
+      "id": "mensageria",
+      "categoria": "backend",
+      "rotulo": "mensageria",
+      "variantes": [
+        "mensageria",
+        "RabbitMQ",
+        "Service Bus",
+        "Azure Service Bus",
+        "Kafka",
+        "=SQS",
+        "message broker",
+        "filas de mensagens"
+      ],
+      "cobre": [],
+      "parcial": [
+        "filas com bee-queue"
+      ],
+      "no_cv": true,
+      "nota": "Só filas com bee-queue, como stack de um repositório mantido no freelance."
+    },
+    {
+      "id": "windows-services",
+      "categoria": "backend",
+      "rotulo": "Windows Services",
+      "variantes": [
+        "Windows Services",
+        "Windows Service",
+        "serviços Windows"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true,
+      "nota": "O perfil tem Windows Task Scheduler (tarefa agendada), que não é Windows Service."
+    },
+    {
+      "id": "oop-di",
+      "categoria": "backend",
+      "rotulo": "OO / IoC / injeção de dependência",
+      "variantes": [
+        "Orientação a Objetos",
+        "orientação a objeto",
+        "POO",
+        "=OOP",
+        "object-oriented",
+        "=IoC",
+        "Injeção de Dependência",
+        "dependency injection",
+        "SOLID"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true,
+      "nota": "Não registrado no perfil. Se você domina, acrescente com evidência."
+    },
+    {
+      "id": "bootstrap-jquery",
+      "categoria": "frontend",
+      "rotulo": "Bootstrap / jQuery",
+      "variantes": [
+        "=Bootstrap",
+        "jQuery"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "procedures",
+      "categoria": "dados",
+      "rotulo": "stored procedures / tuning de banco",
+      "variantes": [
+        "procedures",
+        "stored procedures",
+        "procedure",
+        "otimização de queries",
+        "query tuning"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    },
+    {
+      "id": "code-review",
+      "categoria": "processo",
+      "rotulo": "code review / pull requests",
+      "variantes": [
+        "code review",
+        "code reviews",
+        "revisão de código",
+        "Pull Requests",
+        "Pull Request",
+        "=PRs",
+        "=PR"
+      ],
+      "cobre": [],
+      "parcial": [
+        "código revisado por desenvolvedor do grupo"
+      ],
+      "nota": "Recebe revisão de código de um dev do grupo desde set/2026. Não afirmar que faz code review de terceiros."
+    },
+    {
+      "id": "lideranca-tecnica",
+      "categoria": "soft",
+      "rotulo": "liderança técnica",
+      "variantes": [
+        "liderança técnica",
+        "perfil de liderança técnica",
+        "technical leadership"
+      ],
+      "cobre": [],
+      "parcial": [],
+      "no_cv": true
+    }
+  ]
+}

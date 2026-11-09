@@ -1,0 +1,34 @@
+Analista de QA Júnior
+Mangue Pay Soluções Financeiras · Recife, PE (Híbrido) · Tempo integral
+
+Sobre a empresa
+A Mangue Pay é uma fintech pernambucana de meios de pagamento que atende mais de 3 mil lojistas no Nordeste. Nosso time de produto trabalha em squads com Scrum e entregas quinzenais.
+
+O que você vai fazer
+- Analisar requisitos e critérios de aceitação junto ao PO e aos desenvolvedores
+- Elaborar e executar casos de teste manuais para web e mobile
+- Executar testes de regressão e smoke antes de cada release
+- Realizar testes de API com Postman e validar dados no banco com SQL
+- Registrar e acompanhar bugs no Jira, com evidências e passos para reproduzir
+- Manter a documentação de testes atualizada
+
+Requisitos
+- Experiência com testes manuais e escrita de casos de teste
+- Conhecimento em testes de API (REST) usando Postman ou Insomnia
+- SQL básico para consultas e validação de dados
+- Vivência com Jira ou ferramenta similar de bug tracking
+- Cursando ou formado em Ciência da Computação, Sistemas de Informação, ADS ou áreas afins
+- Boa comunicação e trabalho em equipe
+
+Diferenciais
+- Conhecimento em BDD/Gherkin
+- Noções de automação de testes
+- Experiência no setor financeiro ou bancário
+- Certificação ISTQB CTFL
+
+Modelo de trabalho: híbrido, 3 dias por semana no escritório do Bairro do Recife.
+
+Benefícios
+- Vale-refeição e vale-alimentação
+- Plano de saúde e odontológico
+- Auxílio home office
