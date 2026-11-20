@@ -26,7 +26,7 @@
         "Cypress"
       ],
       "no_cv": true,
-      "nota": "Só avaliado (Familiar). Vai para a análise como parcial; no currículo, usar Playwright."
+      "nota": "Familiar (explorado). Parcial na análise; no currículo, usar Playwright."
     },
     {
       "id": "selenium",
@@ -37,8 +37,11 @@
         "WebDriver"
       ],
       "cobre": [],
-      "parcial": [],
-      "no_cv": true
+      "parcial": [
+        "Selenium"
+      ],
+      "no_cv": true,
+      "nota": "Familiar (explorado). Parcial na análise; no currículo, usar Playwright."
     },
     {
       "id": "robot-framework",
@@ -848,17 +851,31 @@
     {
       "id": "docker",
       "categoria": "infra",
-      "rotulo": "Docker / Kubernetes",
+      "rotulo": "Docker",
       "variantes": [
         "Docker",
-        "Kubernetes",
-        "=K8s",
         "containers",
         "contêineres"
       ],
+      "cobre": [
+        "Docker"
+      ],
+      "parcial": [],
+      "no_cv": false,
+      "nota": "Proficiente (Função, EGB, pessoais)."
+    },
+    {
+      "id": "kubernetes",
+      "categoria": "infra",
+      "rotulo": "Kubernetes",
+      "variantes": [
+        "Kubernetes",
+        "=K8s"
+      ],
       "cobre": [],
       "parcial": [],
-      "no_cv": true
+      "no_cv": true,
+      "nota": "Sem experiência (declarado em 09/11/2026)."
     },
     {
       "id": "cloud",
